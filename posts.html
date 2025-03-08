@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/ico" href="fish.jpg" sizes="200x200"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisherman's Life :: Articles Photos Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="fisherman.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+    <header>  
+    </header>
+
+        <nav> 
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="charters.html" title="Fishing Charters">Fishing Charters</a></li>
+                <li><a href="boats.html" title="Boat Rentals">Boat Rentals</a></li>
+                <li><a href="classes.html" title="Fishing Classes">Fishing Classes</a></li>
+                <li><a href="gear.html" title="Fishing Gear">Fishing Gear</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h1>Welcome to FIsherman's Life Community</h1>
+
+         <div class="main-content">
+
+      <div class="floatleft">
+      <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+     
+       <fieldset>
+         <legend>Book your trip</legend>
+         <div class="form-group">
+
+        <label for="myTrip1">Your Trip: </label>
+        <input type="text" name="myTrip1" id="myTrip1" list="trip1" tabindex="1" required><br><br>
+        <datalist id="trip1">
+            <option value="Fishing Charters" label="Fishing Charters">
+            <option value="Fishing Boats" label="Fishing Boats">
+        </datalist>
+         <br>
+        <label for="myName1">Your Name: </label>
+        <input type="text" name="myName1" id="myName1" tabindex="2" required><br><br>
+        <label for="myEmail1">Your Email: </label>
+        <input type="email" name="myEmail1" id="myEmail1" tabindex="3" required><br><br>
+
+        <label for="myPhone">Your Phone#: </label>
+        <input type="tel" name="myPhone" id="myPhone" tabindex="4" required><br><br>
+
+        <label for="myDate">Your Booking Date:   </label>
+        <input type="date" name="myDate" id="myDate" tabindex="5" required><br><br>
+        
+        <label for="myRefer">How did you hear about us? </label>
+        <input type="text" name="myRefer" id="myRefer" list="referral" tabindex="6" required><br><br>
+        <datalist id="referral">
+            <option value="Google" label="Google">
+            <option value="Bing" label="Bing">
+            <option value="Facebook" label="Facebook">
+            <option value="Friend" label="Friend">
+            <option value="Radio Ad" label="Radio Ad">
+        </datalist>
+         <br>
+     </div>
+     
+     </fieldset>
+     <br>
+      <div class="fldButtons">
+        <input type="submit" name="submitButton1" id="submitButton1" title="Send" value="Send Form" tabindex="7">    
+        <input type="reset" name="resetButton1" id="resetButton1" title="Clear" value="Clear Form" tabindex="8"> 
+     </div>  
+ 
+ </form>
+
+ <br>
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+      <fieldset>
+         <legend>Your story/photos:</legend>
+         <div class="form-group">
+
+        <label for="myTrip2">Your Trip: </label>
+        <input type="text" name="myTrip2" id="myTrip2" list="trip2" tabindex="9" required><br><br>
+        <datalist id="trip2">
+            <option value="Fishing Charters" label="Fishing Charters">
+            <option value="Fishing Boats" label="Fishing Boats">
+        </datalist>
+         <br>
+        <label for="myName2">Your Name: </label>
+        <input type="text" name="myName2" id="myName2" tabindex="10" required><br><br>
+
+        <label for="myEmail2">Your Email: </label>
+        <input type="email" name="myEmail2" id="myEmail2" tabindex="11" required><br><br>        
+        
+        <label for="myComments2">Your story: </label>
+        <textarea name="myComments2" id="myComments2" rows="2" cols="20" tabindex="12" required></textarea><br><br>
+        
+        <label for="myPhoto">Upload your files:</label>
+        <input type="file" name="myPhoto" id="myPhoto" accept=".jpg" multiple tabindex="13"><br><br>
+    </div>
+    
+     </fieldset>
+     <br>
+     <div class="fldButtons">
+        <input type="submit" name="submitButton2" id="submitButton2" title="Send" value="Send Form" tabindex="14">     
+        <input type="reset" name="resetButton2" id="resetButton2" title="Clear Form" value="Clear Form" tabindex="15">
+    </div>
+    </form>
+
+<br>
+
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+       <fieldset>
+         <legend>Your review:</legend>
+    <div class="form-group">
+
+        <label for="myTrip3">Your Trip: </label>
+        <input type="text" name="myTrip3" id="myTrip3" list="trip3" tabindex="16" required><br><br>
+        <datalist id="trip3">
+            <option value="Fishing Charters" label="Fishing Charters">
+            <option value="Fishing Boats" label="Fishing Boats">
+        </datalist>
+         <br>
+        <label for="myName3">Your Name: </label>
+        <input type="text" name="myName3" id="myName3" tabindex="17" required><br><br>
+
+        <label for="myEmail3">Your Email: </label>
+        <input type="email" name="myEmail3" id="myEmail3" tabindex="18" required><br><br>        
+        
+        <label for="myComments3">Your Comments: </label>
+        <textarea name="myComments3" id="myComments3" rows="2" cols="20" tabindex="19" required></textarea><br><br>
+
+        <label for="myRate">Rate our service:</label>
+        
+        Low <input type="range" name="myRate" id="myRate" min="1" max="5" tabindex="20"> High<br><br>
+    </div>
+           
+    </fieldset>
+    <br>
+    <div class="fldButtons">
+        <input type="submit" name="submitButton3" id="submitButton3" title="Send" value="Send Form" tabindex="21">
+        <input type="reset" name="resetButton3" id="resetButton3" title="Clear Form" value="Clear Form" tabindex="22">    
+    </div>
+
+      </form>
+  </div>
+  </div>
+    </main>
+<br>
+    <footer>
+        <p>Copyright &copy; 2025 Fisherman's Life</p>
+        <a href="mailto:Irina@Tirikos.com" title="send email to Irina Tirikos">Irina@Tirikos.com</a>
+    </footer>
+</div>
+</body>
+</html>

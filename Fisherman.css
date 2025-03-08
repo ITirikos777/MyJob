@@ -1,0 +1,468 @@
+.main-content {
+    width: 90%;           
+    height: 100%;        
+    padding: 20px;       
+    margin: 0 auto; 
+   /* background-color: #FFFAF0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);*/ 
+}  
+
+body { /*background-image: url(background.jpg); */
+    background-color: #E1E5F1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #000033; 
+    color: beige;
+    background-image: url(header.jpg); 
+    background-position: left;  
+    background-repeat: no-repeat; 
+    padding: 1em 0; 
+    background-size: 100% 100%;
+    font-size: 90%; 
+    margin-top: 5px; 
+    min-height: 300px; }
+
+    
+h1 { padding-top: 10px;
+     padding-left: 2em; 
+     text-align: center;     
+     font-family: Arial, sans-serif; 
+     color: #FF6F61; 
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 20px 5px 20px;
+}
+
+nav a {
+    background-color: #FF6F61;
+    color: beige;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px outset #CCCCCC;
+}  
+
+nav a:hover { background-color: #f39c12;
+              border: 2px inset #333333;}
+
+.page-nav-link {  background-color: #f39c12;
+              border: 2px inset #333333;}
+
+main { 
+       background-color: #FFFAF0; 
+       padding-top: 0;
+       padding-left: 2em;
+       padding-right: 2em; 
+       display: block; 
+       border: 5em;        
+       text-align: center; } 
+
+
+.studio { font-style: italic; 
+     color: #333; 
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); }
+
+img { padding-left: .3em;
+      padding-right: .3em; 
+       }   
+
+#hero { text-align: center; }
+
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%; 
+           min-width: 1210px;
+           max-width: 1280px; 
+           padding-top: 5px;
+           padding-bottom: 0;
+           background-color:  #F5F5F5; 
+           box-shadow: 3px 3px 3px; }
+
+
+.clear {clear: both;
+        text-align: left} 
+
+#flow {
+    display: flex; 
+    flex-direction: row; 
+  }
+
+
+.floatleft { text-align: left; /* Aligns text to the left */
+            padding-left: 55px; } 
+
+#page-table {
+            border: none; /* Remove border from the table */
+            /*border-collapse: collapse; /* Optional: Collapses borders for a cleaner look */
+            background-color: #FFFAF0;
+           background-color: #FFFAF0;}
+
+#page-table td {width: 100px; height: 100px; 
+                }
+.gear-description { margin-top: .1px; width: 250px; }
+
+table {    
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 1em; 
+    border: 1px; 
+    border-collapse: collapse;
+    padding-left: .1px; 
+  }
+
+ td, th {
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+  }  
+
+ /* Container to hold the tables side by side and center them */
+.table-container {
+  display: flex;
+  justify-content: center; /* Centers the tables horizontally */
+  gap: 40px; /* Adjusts the space between the tables */
+  margin: 0 auto; /* Centers the container itself */
+  width: 150px; /* Adjusts the container width to fit the tables */
+  padding-left: 115px;
+
+}
+
+#table1, #table2, #table3 {
+  border: 2px solid black; /* Table borders */
+  border-collapse: collapse; /* Collapses the table borders */
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+/* Borders for the table heads */
+#table1 thead, #table2 thead, #table3 thead {
+  border: 2px solid red;
+}
+
+#table1 tr, #table2 tr, #table3 tr {
+  border: 1px solid blue;
+}
+
+#table1 td, #table2 td, #table3 td, #table1 th, #table2 th, #table3 th {
+  border: 1px solid green;
+  padding: 8px;
+}
+
+  tr:nth-of-type(even) {
+    background-color: #E1E5F1;
+  }
+
+  caption, h3 {
+    margin-bottom: 10px;
+    margin: 1em;
+    font-weight: bold; 
+    font-size: 120%; 
+    font-family: Arial, sans-serif; 
+    color: #FF6F61;
+    text-align: left; /* Aligns text to the left */
+    padding-left: 35px;
+  }
+
+
+footer {
+    background-color: #000033;
+    color: beige;     
+    font-style: italic;
+    font-size: 0.60em;
+    text-align: center;
+    padding: 0.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+a[href^="mailto:"] {
+    color: #FF6F61; }
+
+.regLink { text-decoration: none;
+    color:  #FF6F61;; }
+
+ #mobile {
+  display: none;
+}
+
+#desktop {
+  display: inline;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Single column */
+    padding-left: 1em;
+    width: 80%;
+    align-self: center;
+} 
+.form-group {
+    margin-bottom: 15px; /* Space between each form group */
+}
+.form-group label {
+    display: inline-block;
+    width: 150px; /* Fixed width for labels */
+    text-align: right;
+    margin-right: 10px; /* Space between label and input */
+}
+.form-group  input[type="file"], input[type="range"],  
+             select, textarea {
+                  padding: 5px;
+                  width: 200px; /* Adjust as needed */
+                  box-sizing: border-box; }
+.fldButtons {
+    display: inline-block;
+    width: 150px; /* Fixed width for labels */
+    text-align: right; 
+    white-space: nowrap; }
+
+label {
+    display: inline-block;
+    width: 70px; /* Fixed width for labels */
+    text-align: right;
+    margin-right: 8px; /* Space between label and input */
+    padding-left: .1px;
+}
+/*input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    padding: 5px;
+    width: 200px; /* Adjust as needed */
+}*/
+
+fieldset { 
+    border: 2px solid #ccc;
+    /*padding: 20px;*/
+    width: 300px;
+    margin: 0 auto;
+    /*text-align: center;
+    align-self: center;*/
+    text-align: center; /* Aligns text to the left */
+    padding-left: 110px;
+}
+
+legend { font-family: Arial, sans-serif; 
+         font-weight: bold; 
+         font-size: 18px;
+         text-align: left;
+         color: #FF6F61; 
+         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lblAddress { margin-top: 0; 
+              align-self: center;}
+  
+.myLevel { text-align: center; }  
+
+ul { /*list-style-type: none;*/
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 25px;
+}
+}
+li {
+    content: '\2022'; /* Unicode for the bullet character */
+    color: black; /* Bullet color */
+    display: inline-block;
+    width: 2px; /* Width of the bullet */
+    margin-right: 10px; /* Space between bullet and text */
+}      
+
+label {    
+    text-align: left;   
+    /*white-space: nowrap;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: .5em;*/
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+
+    text-align: left;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+} 
+
+#rowcell {background-color:  #FFFAF0; }
+#datacell {  width: 100px; height: 100px; background-color:  #FFFAF0; }
+
+.search-container {
+           display: flex;
+            gap: 5px; /* Adjust the gap to set the space between elements */
+            padding-left: 35px;
+        }
+.search-container input[type="search"] {
+            height: 30px; /* Adjust the height */
+            width: 250px; /* Adjust the width */
+           /* padding: 0 12px;*/
+            text-align: left;
+            padding-left: 0;
+        }
+.search-container input[type="submit"] {
+            height: 30px; /* Adjust the height */
+            width: 80px; /* Adjust the width */
+            padding: 0 12px;
+            margin: 0;
+            text-align: center;
+        }
+
+.search-container input[type="reset"] {
+            height: 30px; /* Adjust the height */
+            width: 80px; /* Adjust the width */
+            padding: 0 12px;
+            margin: 0;
+            text-align: center;
+        }
+.search-container label { white-space: nowrap; }        
+
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: .5em;
+    text-align: left;
+    height: 50px;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+}  
+
+.divButtons {  display: flex; white-space: nowrap;}
+
+
+input[type="submit"],
+input[type="reset"]  
+{   
+    grid-column: 2 / 3;
+    background-color: #FF6F61;
+    color: beige;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px outset #CCCCCC;
+    margin-right: 15px;
+    margin-left: 0;
+    width: 9em;
+    text-align: center;
+}  
+
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover  
+ { background-color: #f39c12;
+              border: 2px inset #333333;}
+
+
+/* Styles for mobile devices */
+
+@media (max-width: 768px) 
+{
+
+ 
+input[type="submit"] {
+    grid-column: 2; /* Place in the second column */
+    width: 9em; /* Set width to 9em */
+}
+
+
+/* Configure label element selector with right alignment */
+label {
+    text-align: right;
+}
+
+    body {
+        background-image: url(background.jpg);
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+       /*  background-size: 50% 50%;  */
+         }
+
+    header {
+        width: 50%; /* Resize the image to 80% of the container width */
+        max-width: 50%; /* Set a maximum width for the image */
+        height: auto; /* Maintain the aspect ratio */
+    }
+
+    nav a {
+             padding: 6px 14px;
+             font-size: 12px;
+          }  
+
+    nav ul {
+             list-style-type: none;
+             padding: 0;
+             display: flex;
+             justify-content: left;
+           }
+
+    nav ul li {
+    margin: 0 2px;
+              }
+
+    main {
+        width: 50%; /* Resize the image to 80% of the container width */
+        max-width: 50%; /* Set a maximum width for the image */
+        height: auto; /* Maintain the aspect ratio */
+    }          
+ 
+    #mobile {
+    display: none; 
+  }
+
+  #desktop {
+    display: inline; 
+  }
+}
+
+
+@media (min-width: 1024px) 
+{ 
+
+
+ header {
+    font-size: 120%;
+  }
+  
+  .home {
+    height: 50vh;
+    padding-top: 5em;
+    padding-left: 8em;
+  }
+  
+  .content {
+    height: 30vh;
+    padding-top: 1em;
+    padding-left: 8em;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+}

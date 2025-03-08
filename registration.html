@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/ico" href="fish.jpg" sizes="200x200"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisherman's Life :: Registration Form</title>
+    <link rel="stylesheet" href="fisherman.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <header>        
+    </header>
+        <nav> 
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="charters.html" title="Fishing Charters">Fishing Charters</a></li>
+                <li><a href="boats.html" title="Boat Rentals" >Boat Rentals</a></li>
+                <li><a href="classes.html" title="Fishing Classes">Fishing Classes</a></li>
+                <li><a href="gear.html" title="Fishing Gear">Fishing Gear</a></li>
+            </ul>
+        </nav>
+        
+    <main>
+        <h1>Fishing Classes - Registration</h1>
+
+    <div class="main-content">
+
+     <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+       
+     <fieldset>
+            <legend>Registration Form</legend>  
+
+      <div class="floatleft">
+        Fill out the form below to register for Fishing Classes. All information is required.<br><br>
+        <label for="myName">Name:</label>
+            <input type="text" name="myName" id="myName" tabindex="1" required><br><br>
+
+        <label for="myAddress" class="lblAddress">Address:</label>
+            <textarea name="myAddress" id="myAddress" rows="3" cols="20" tabindex="3" required></textarea><br><br>
+
+        <label for="myPhone">Phone#:</label>
+            <input type="tel" name="myPhone" id="myPhone" pattern="[0-9]{10}" tabindex="4" required><br><br>
+
+        <label for="myEmail">E-mail:</label>
+            <input type="email" name="myEmail" id="myEmail" tabindex="5" required><br><br>
+            
+           <label for="myDate"> Date: </label>
+            <input type="date" name="myDate" id="myDate" tabindex="7" required><br><br>
+
+             Class  Level:
+           <input type="radio" name="myLevel" id="levBeginner" value="Beginner" required>Beginner   
+            <input type="radio" name="myLevel" id="levIntermedediate" value="Intermediate">Intermediate   
+            <input type="radio" name="myLevel" id="levAdvanced" value="Advanced">Advanced<br><br>
+
+           Time of the Day: 
+           <input type="checkbox" name="MorningTime" id="MorningTime" value="Morning">Morning   
+           <input type="checkbox" name="EveningTime" id="EveningTime" value="Evening">Evening<br><br>
+        
+         </div>
+      </fieldset>
+
+<br>
+        <div class="fldButtons">
+           <input type="submit" name="submitButton" id="submitButton" value="Send Form" title="Submit" tabindex="10">      
+           <input type="reset" name="resetButton" id="resetButton" title="Clear Form" value="Clear" tabindex="11">
+        </div>   
+
+    </form>
+
+
+<br>
+</div> <!-- /main-contant  -->
+    </main>
+
+
+    <footer>
+        <p>Copyright &copy; 2025 Fisherman's Life</p>
+        <a href="mailto:Irina@Tirikos.com" title="send email to Irina Tirikos" tabindex="11">Irina@Tirikos.com</a>
+    </footer>
+</div>
+</body>
+</html>
